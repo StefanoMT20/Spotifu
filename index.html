@@ -31,11 +31,33 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body class="body">
-    <div class="slider">
-        <div class="slider-progress">
-            <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
+    <section class="playlistList">
+        
+    </section>
+    <div class="playlistB">
+        <div class="playlistB-cover">
+            <img src="./img/animeHits.png" alt="Cover de la playlist Anime Hits">
+        </div>
+        <div class="playlistB-details">
+            <h3 class="playlistB-title">Naruto Openings $ Endings</h3>
+            <div class="playlistB-control">
+                <button class="buttonIcon is-primary" title="Reporducir la lista de reproducción Naruto Openings $ Endings" aria-label="Reporducir la lista de reproducción Naruto Openings $ Endings">
+                    <i class="icon-play" aria-hidden="true"></i>
+                </button>
+            </div>
         </div>
     </div>
+    <div class="playlistA">
+        <div class="playlistA-cover">
+            <img src="img/animeHits.png" alt="Cover de la playlist AnimeHits">
+            <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                <i class="icon-play" aria-hidden="true"></i>
+            </button>
+        </div>
+        <h3 class="playlistA-title">Anime Hits</h3>
+        <h4 class="playlistA-description">Naruto, The killers, Weathing With You</h4>
+    </div>
+    
     <div class="sidebar">
         <header class="logo" role="banner">
             <a href="/" aria-current="page">
@@ -135,7 +157,77 @@
             </ul>
         </nav>
     </div>
+    <div class="player">
+        <div class="player-nowPlaying">
+            <div class="nowPlaying">
+                <div class="nowPlaying-cover">
+                    <img src="img/MiniCover.png" alt="Portada Grand Scape">
+                </div>
+                <div class="nowPlaying-details">
+                    <div class="nowPlaying-description">
+                        <a href="#song" class="nowPlaying-title">
+                            Grand Escape (feat. Tokio Miura) 
+                        </a> 
+                        <a href="#RADWIMPS" class="nowPlaying-artist"> 
+                            RADWIMPS, Toko Miura 
+                        </a> 
+                    </div>
+                    <div class="nowPlaying-actions">
+                        <button class="player-control"  role="switch" title="Guardar en tu biblioteca" aria-label="Guardar en tu biblioteca">
+                            <i class="icon-heart" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="player-PlayerControls">
+            <div class="playerControls">
+                <div class="playerControls-buttons" aria-label="Controles de reproducción">
+                    <button class="buttonIcon" aria-label="Anterior" title="Anterior">
+                        <i class="icon-prev" aria-hidden="true"></i>
+                    </button>
+                    <button class="buttonIcon is-white" aria-label="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                    <button class="buttonIcon" aria-label="Siguiente" title="Siguiente">
+                        <i class="icon-next" aria-hidden="true"></i>
+                    </button>
+                </div>
+                
+                <div class="playerPlayback">
+                    <span class="playerPlayback-progressTime">01:40</span>
+                    <div class="playerPlayback-slider">
+                        <div class="slider">
+                            <div class="slider-progress">
+                                <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="playPlayback-progressTime">3:25</span>
+                </div>
+            </div>
+        </div>
+        <div class="player-playerVolumen">
+            <div class="playerVolumen">
+                <button class="player-control" aria-describedby="volumen-icon" aria-label="Silenciar">
+                    <i class="icon-volume-up" id="volumen-icon" role="presentation" aria-label="Volumen alto"></i>
+                </button>
+                <div class="playerVolumen-slider">
+                    <div class="slider">
+                        <div class="slider-progress">
+                            <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
+
+    
+    
+
 
 
 </body>
