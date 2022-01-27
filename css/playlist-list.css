@@ -1,7 +1,5 @@
-.playlistList{
-
-    
-}
+@import './playlist-A.css';
+@import './playlist-B.css';
 .playlistList-container{
     display: flex;
     gap: 1rem;
