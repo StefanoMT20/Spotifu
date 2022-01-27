@@ -9,6 +9,10 @@
 @import './playlist-A.css';
 @import './playlist-B.css';
 @import './playlist-list.css';
+@import './search.css';
+@import './navigation.css';
+@import './header.css';
+@import './sticky.css';
 
 :root{
  --primary: #00B050;
