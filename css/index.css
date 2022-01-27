@@ -8,6 +8,7 @@
 @import './player.css';
 @import './playlist-A.css';
 @import './playlist-B.css';
+@import './playlist-list.css';
 
 :root{
  --primary: #00B050;
