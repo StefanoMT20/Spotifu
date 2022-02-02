@@ -28,3 +28,8 @@
  --button: bold .875rem/1rem var(--baseFontFamily);
  --smallFont: normal .75em/normal var(--baseFontFamily);
 }
+@media screen and (min-width: 1366px) {
+    :root{
+        font-size: 18px;
+    }
+}

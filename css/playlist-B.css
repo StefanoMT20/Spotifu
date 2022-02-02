@@ -13,15 +13,16 @@
 }
 
 .playlistB-details{
-    display: flex;
-    align-items: center;
-    gap: .5rem;
+    display: grid;
     padding-inline: 1rem;
+    align-items: center;
+    grid-template-columns: 1fr auto;
 }
 .playlistB-title{
     font: var(--baseFontBold);
     color: var(--white);
     margin:0;
+    display: inline-block;
 }
 .playlistB-cover img{
     vertical-align: middle;
@@ -29,7 +30,8 @@
     block-size: 4.75rem;
 }
 .playlistB-control{
-    opacity: 0;
+    opacity: 1;
+    justify-self: flex-end;
 }
 .playlistB:hover .playlistB-control, 
 .playlistB:focus-within .playlistB-control{
