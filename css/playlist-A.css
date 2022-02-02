@@ -13,7 +13,8 @@
 .playlistA-cover img{
     vertical-align: middle;
     inline-size: 100%;
-    block-size: auto;
+    block-size: 9.375rem;
+    object-fit: cover;
 }
 .playlistA-cover{
     position: relative;
