@@ -9,6 +9,7 @@
 @import './page.css';
 @import './layout.css';
 @import './scrollbar.css';
+@import './user.css';
 
 :root{
  --primary: #00B050;

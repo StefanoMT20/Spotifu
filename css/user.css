@@ -1,0 +1,26 @@
+.user{
+    inline-size: 10rem;
+    block-size: 100%;
+    border-radius: 1rem;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 2px;
+    background: var(--gray60);
+}
+.user-container{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+.user-picture img{
+    border-radius: 50%;
+    vertical-align: middle;
+    
+}
+i{
+    font-size: 0.5rem;   
+
+}
