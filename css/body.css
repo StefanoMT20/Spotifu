@@ -4,3 +4,6 @@
     font: var(--baseFont);
     margin: 0;
 }
+h1{
+   font: var(--headLine1); 
+}

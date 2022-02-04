@@ -9,7 +9,7 @@
 @import './page.css';
 @import './layout.css';
 @import './scrollbar.css';
-@import './user.css';
+@import './playlist.css';
 
 :root{
  --primary: #00B050;
@@ -21,6 +21,7 @@
  --gray50: #121212;
  --gray60: #000;
 
+
  --baseFontFamily: Avenir, Helvetica, san-serif;
  --headLine1: bold 2rem/normal var(--baseFontFamily);
  --headLine2: bold 1.5rem/1.75rem var(--baseFontFamily);
@@ -28,6 +29,7 @@
  --baseFontBold: bold .875rem/1.375rem var(--baseFontFamily);
  --button: bold .875rem/1rem var(--baseFontFamily);
  --smallFont: normal .75em/normal var(--baseFontFamily);
+ --buttonFont: 500 0.875/1rem var(--baseFontFamily);
 }
 @media screen and (min-width: 1366px) {
     :root{

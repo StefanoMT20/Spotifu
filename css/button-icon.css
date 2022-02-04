@@ -1,10 +1,13 @@
+.button, .buttonIcon{
+    border: none;
+    cursor: pointer;
+}
 .buttonIcon{
     inline-size:2.5rem;
     block-size: 2.5rem;
     background: transparent;
     border-radius: 50%;
     border: none;
-    cursor: pointer;
     color: var(--gray10);
 }
 .buttonIcon.is-white{
@@ -25,4 +28,13 @@
 }
 .buttonIcon:hover:is([class*="is-"]){
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3)  ;
+}
+.button{
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background: var(--primary);
+    color: var(--white);
+    inline-size: 9.5625rem;
+    block-size: 100%;
+    font: var(--buttonFont);
 }
