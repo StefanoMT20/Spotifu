@@ -3,7 +3,6 @@
 .playlist{
     display: grid;
     grid-template-rows: 0.5fr 1fr;
-    width: 69rem;
-    height: auto;
+    width: 100%;
 }
 
