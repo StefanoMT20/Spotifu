@@ -31,10 +31,10 @@
 }
 .button{
     border-radius: 1rem;
-    padding: 0.5rem;
+    padding: 0.4rem;
     background: var(--primary);
     color: var(--white);
     inline-size: 9.5625rem;
-    block-size: 100%;
+    block-size: 2rem;
     font: var(--buttonFont);
 }

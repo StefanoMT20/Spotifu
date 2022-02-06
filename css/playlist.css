@@ -1,7 +1,9 @@
 @import './playlistInfo.css';
-@import './playlistSong.css';
+@import './playlistList.css';
 .playlist{
     display: grid;
     grid-template-rows: 1fr 1fr;
+    width: 87rem;
+    height: auto;
 }
 
