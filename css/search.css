@@ -26,3 +26,19 @@
 .search:focus-within i {
     color:var(--gray10)
 }
+
+/*FILTER BAR*/
+.search.is-filter input{
+    background:transparent;
+}
+.search.is-filter.is-active input:focus{
+    background: var(--gray20);
+    border-radius: 4px;
+}
+.search.is-filter.is-active:focus-within i,
+.search.is-filter.is-active input:focus::-webkit-input-placeholder {
+    color:var(--white);
+}
+
+
+

@@ -1,9 +1,7 @@
-.playlist, .playlist-information{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@import './playlistInfo.css';
+@import './playlistSong.css';
+.playlist{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
-.playlist-name{
-    color: var(--white);
-    font: var(--headLine1);
-}
+
