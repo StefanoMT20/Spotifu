@@ -1,8 +1,10 @@
-@import './playlistInfo.css';
 @import './playlistList.css';
+@import './playlist-table.css';
 .playlist{
     display: grid;
     grid-template-rows: 0.5fr 1fr;
+    justify-content: center;
     width: 100%;
+    height: 100%;
 }
 
