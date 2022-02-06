@@ -2,8 +2,8 @@
 @import './playlistList.css';
 .playlist{
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    width: 87rem;
+    grid-template-rows: 0.5fr 1fr;
+    width: 69rem;
     height: auto;
 }
 

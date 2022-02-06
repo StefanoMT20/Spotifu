@@ -1,4 +1,6 @@
-
+.playlist-top{
+    justify-content: center;
+}
 .playlist-listHeader
 {
     display: flex;
