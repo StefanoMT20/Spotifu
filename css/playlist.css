@@ -1,11 +1,8 @@
+@import './playlistInfo.css';
+@import './playlistList.css';
 .playlist{
     display: grid;
     grid-template-rows: 0.5fr 1fr;
-    justify-content: center;
+    width: 100%;
 }
-.playlist-top{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+

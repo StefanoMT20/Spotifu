@@ -1,0 +1,21 @@
+.playlist-top{
+    justify-content: center;
+}
+.playlist-listHeader
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.songList-headerHeadLine{
+    font: var(--Subtitle2);
+}
+.playlist-listSong{
+    display: flex;
+    justify-content: space-between;
+}
+.playlist-listSong h3{
+    font: var(--baseFontFamily);    
+}
+
+
