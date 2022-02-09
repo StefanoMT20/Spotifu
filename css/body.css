@@ -9,3 +9,7 @@ h1{
    font: var(--headLine1); 
 }
 
+a{
+    color: var(--white);
+    text-decoration: none;
+}

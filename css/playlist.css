@@ -2,7 +2,7 @@
 @import './playlist-table.css';
 .background{
     background: no-repeat url(../img/image\ 1.png);
-
+    min-width: 100% !important;
 }
 
 .playlist{
@@ -14,10 +14,4 @@
 }
 .playlist-body{
     margin-block-start: 1rem;
-}
-.playlist .search.is-filter input{
-    min-inline-size: 100%;
-}
-.playlist .search.is-filter{
-    margin-block-end: 1rem;
 }
