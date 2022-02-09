@@ -6,7 +6,6 @@
   }
   .layout{
     min-inline-size: var(--minInlineSize);
-    overflow: hidden;
   }
   .layout-sidebar{
   inline-size: var(--sidebarInlineSize);
@@ -20,6 +19,7 @@
   block-size: calc(100vh - var(--bottomSize));
   overflow: auto;
   min-block-size: var(--minBlockSize);
+  inline-size: 100%;
   }
   .layout-bottom{
   flex: 1;

@@ -1,3 +1,7 @@
 .playlist-table th{
     font: var(--Subtitle2);
 }
+.playlist-table table{
+    inline-size: 100%;
+    text-align: center;
+}

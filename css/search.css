@@ -28,8 +28,12 @@
 }
 
 /*FILTER BAR*/
+.search.is-filter{
+    width: 100%;
+}
 .search.is-filter input{
     background:transparent;
+    width: 100%;
 }
 .search.is-filter.is-active input:focus{
     background: var(--gray20);

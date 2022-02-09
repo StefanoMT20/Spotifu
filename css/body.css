@@ -3,7 +3,9 @@
     color: var(--gray10);
     font: var(--baseFont);
     margin: 0;
+    overflow: hidden;
 }
 h1{
    font: var(--headLine1); 
 }
+
