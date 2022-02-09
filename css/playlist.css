@@ -2,7 +2,7 @@
 @import './playlist-table.css';
 .background{
     background: no-repeat url(../img/image\ 1.png);
-    min-width: 100% !important;
+    max-width: 100%;
 }
 
 .playlist{

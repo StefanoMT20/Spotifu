@@ -7,3 +7,8 @@
 .playlist2-top .playlist-information{
     align-items: flex-start;
 }
+.playlist2-cover img{
+    inline-size:19.5rem;
+    block-size: 11.4375rem;
+    object-fit: cover;
+}
